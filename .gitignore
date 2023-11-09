@@ -4,6 +4,11 @@
 /node_modules
 /.pnp
 .pnp.js
+# Ignore the node_modules directory
+/node_modules
+
+# Ignore the build directory
+/build
 
 # testing
 /coverage
