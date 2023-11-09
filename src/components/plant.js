@@ -1,15 +1,19 @@
-console.log("Script is running");
-const viewButton = document.getElementById("view-button");
-const popup = document.getElementById("popup");
-const closeButton = document.getElementById("close-button");
-
-viewButton.addEventListener("click", () => {
-  popup.style.display = "flex";
-});
-
-closeButton.addEventListener("click", () => {
-  popup.style.display = "none";
-});
+document.addEventListener("DOMContentLoaded", function () {
+    console.log("JavaScript code is running");
+    
+    const viewButton = document.getElementById("view-button");
+    const popup = document.getElementById("popup");
+    const closeButton = document.getElementById("close-button");
+  
+    viewButton.addEventListener("click", () => {
+      popup.style.display = "flex";
+    });
+  
+    closeButton.addEventListener("click", () => {
+      popup.style.display = "none";
+    });
+  });
+  
   
 // const editButton = document.querySelector(".edit-button");
 // const saveButton = document.getElementById("save-button");
